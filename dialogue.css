@@ -1,0 +1,33 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font: 16px arial;
+  color: #212121;
+}
+dialog {
+  margin: 100px auto;
+  background-color: #eee;
+  opacity: 1;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  min-height: 300px;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border: 1px solid #212121;
+  border-radius: 5px;
+  background: #087acc;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
